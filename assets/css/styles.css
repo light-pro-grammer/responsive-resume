@@ -112,7 +112,7 @@ body.scale-cv {
 }
 
 .scale-cv .section__title {
-  margin-bottom: 0.245rem;
+  margin-bottom: 0.54rem;
 }
 
 .scale-cv .resume__left,
@@ -480,11 +480,16 @@ img {
   gap: 0;
 }
 
-.skills__name,
-.languages__name {
+.skills__name {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
+}
+
+.languages__name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .skills__name--bigger {
@@ -622,7 +627,7 @@ img {
     grid-template-columns: 0.5fr 1fr;
     background-color: var(--container-color);
     box-shadow: 4px 4px 8px rgba(13, 12, 12, 0.15);
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 
   .resume__left {
