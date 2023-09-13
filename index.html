@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Ivan</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"><i class="bx bx-home nav__icon"></i>Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"><i class="bx bx-user nav__icon"></i>Profile</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link"><i class="bx bx-book nav__icon"></i>Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"><i class="bx bx-receipt nav__icon"></i>Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"><i class="bx bx-briefcase nav__icon"></i>Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"><i class="bx bx-award nav__icon"></i>Certificates</a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link"><i class="bx bx-link-external nav__icon"></i>References</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/profile-photo.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">PARKHOMENKO <b>IVAN</b></h1>
+                <h3 class="home__profession">Front-End Developer</h3>
+
+                <div>
+                  <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-mobile">Download CV</a>
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> 123 Mury Avenue, Chernihiv, Ukraine
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i> ivanpark.dev@gmail.com
+                </span>
+                <span class="home__information"> <i class="bx bx-phone home__icon"></i> +380 (93) 286-0316</span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section__title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a href="https://www.linkedin.com/in/ivan-parkhomenko-ab0027178/" target="_blank" class="social__link"
+                ><i class="bx bxl-linkedin social__icon"></i> @ivan-parkhomenko
+              </a>
+              <a href="https://github.com/light-pro-grammer" target="_blank" class="social__link"
+                ><i class="bx bxl-github social__icon"></i> @light-pro-grammer
+              </a>
+              <a href="https://t.me/iparkprolifery09" target="_blank" class="social__link"
+                ><i class="bx bxl-telegram social__icon"></i> @iparkprolifery09
+              </a>
+            </div>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section__title">EDUCATION</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SPANISH PHILOLOGY - BACHELOR</h3>
+                  <span class="education__studies">Kyiv National Linguistic University</span>
+                  <span class="education__year">2014 - 2018</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SPANISH PHILOLOGY AND TRANSLATION - MASTER</h3>
+                  <span class="education__studies">Kyiv National Linguistic University</span>
+                  <span class="education__year">2018 - 2019</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section__title">SKILLS</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <img src="assets/img/icons/html-124-svgrepo-com.svg" alt="html icon" class="skills__icon" /> HTML
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/css3-02-svgrepo-com.svg" alt="css icon" class="skills__icon" /> CSS
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/sass-fill-svgrepo-com.svg" alt="sass icon" class="skills__icon" /> Sass
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/tailwind-svgrepo-com.svg" alt="tailwind icon" class="skills__icon" />
+                  Tailwind
+                </li>
+                <li class="skills__name">
+                  <img
+                    src="assets/img/icons/javascript-155-svgrepo-com.svg"
+                    alt="JavaScript icon"
+                    class="skills__icon"
+                  />
+                  JavaScript
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/typescript-svgrepo-com.svg" alt="typescript icon" class="skills__icon" />
+                  TypeScript
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <img src="assets/img/icons/react-svgrepo-com.svg" alt="react icon" class="skills__icon" />
+                  React
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/nextjs-icon-svgrepo-com.svg" alt="nextjs icon" class="skills__icon" />
+                  NextJS
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/nodejs-svgrepo-com.svg" alt="nodejs icon" class="skills__icon" />
+                  NodeJS
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/express-svgrepo-com.svg" alt="express icon" class="skills__icon" />
+                  Express
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/mongodb-svgrepo-com.svg" alt="mongodb icon" class="skills__icon" />
+                  MongoDB
+                </li>
+                <li class="skills__name">
+                  <img src="assets/img/icons/git-svgrepo-com.svg" alt="git icon" class="skills__icon" /> Git
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section__title">PROFILE</h2>
+
+            <p class="profile__description">
+              I am a motivated and diligent front-end developer with a passion for crafting intuitive, responsive, and
+              aesthetically pleasing websites. With a strong foundation in HTML, CSS, JavaScript, and React, I've
+              dedicated myself to continual learning and application through the development of various personal
+              projects.
+            </p>
+          </section>
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section__title">EXPERIENCE</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Graduated Bootcamp</h3>
+                  <span class="experience__company">November 2022 - July 2023 | 'robot_dreams' bootcamp</span>
+                  <p class="experience__description">
+                    I graduated from the 'robot_dreams' bootcamp, where I was enrolled in the IT generation program,
+                    after 6 months of studying full-stack programming with JavaScript.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Full-Stack Developer</h3>
+                  <span class="experience__company">March 2023 - August 2023 | Personal Projects</span>
+                  <p class="experience__description">
+                    I worked as a full-stack developer for half a year on three of my major personal projects to learn
+                    new technologies. I also upskilled to the full stack.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Front-End Developer</h3>
+                  <span class="experience__company">August 2023 - present | Personal Projects</span>
+                  <p class="experience__description">
+                    I'm now a full-stack developer that gravites more toward the front-end and working as a freelancer.
+                    My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm looking for a full-time
+                    position as a front-end developer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section__title">ONLINE CERTIFICATES</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">The Web Developer Bootcamp 2023 (Colt Steele) - Udemy, 2023</h3>
+                <p class="certificate__description">
+                  This bootcamp covered a broad array of topics from HTML5, CSS3, JavaScript, and Node.js to Express.js,
+                  MongoDB, and React. The course included practical projects that enriched my knowledge and skillset to
+                  build full-stack web applications.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references">
+            <h2 class="section__title">REFERENCES</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Senior Software Engineer</span>
+                <h3 class="references__title">Viktor Kondolovskyi</h3>
+                <ul class="references__contact">
+                  <li>
+                    <a href="https://www.linkedin.com/in/kondolovskiy/" target="_blank" class="references__link"
+                      ><i class="bx bxl-linkedin references__icon"></i> @kondolovskiy</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/kondolovskiy" target="_blank" class="references__link"
+                      ><i class="bx bxl-github references__icon"></i> kondolovskiy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section__title">LANGUAGES</h2>
+
+            <div class="languages__container bd-grid">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name"><span class="languages__circle"></span>Ukrainian</li>
+                <li class="languages__name"><span class="languages__circle"></span>English</li>
+                <li class="languages__name"><span class="languages__circle"></span>Spanish</li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section__title">INTERESTS</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Reading</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Traveling</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
